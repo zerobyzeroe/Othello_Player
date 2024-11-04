@@ -5,6 +5,8 @@ Developed an Othello player gaming engine as my college project under the course
 
 Developed the logic and strategy for the engine using the concepts of MinMax theorm of Game theory and Decision Tree to make the best possible decision to place the piece.
 
+For every piece the engine places on the board it creates a decision tree for all possibilities and picks the one which maximizes computers and minimizes opponent's gain. The depth of the tree is user-controlled and can significantly increase the difficulty of the game. -This allows us to play the game in different difficulty modes with an easy-to-understand UI built using Streamlit.
+
 At last to play the game seamlessly, created a whole frontend using Streamlit the frontend library of Python.
 
 Both engine and code for UI resides in one file Othello_engine+UI.py
